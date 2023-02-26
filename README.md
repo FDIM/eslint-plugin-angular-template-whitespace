@@ -4,6 +4,8 @@ This is controversial topic, but not everyone is onboard with prettier usage thr
 
 My goal is to have small set of rules that enforce whitespace in angular templates, mainly in expressions and conditions.
 
+> This is not ready for use just yet! Just taking initial steps make this possible.
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
@@ -22,13 +24,13 @@ $ npm install eslint-plugin-angular-template-whitespace --save-dev
 
 ## Usage
 
-Add `angular-whitespace` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `angular-template-whitespace` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
-    "extends": ["plugin:angular-whitespace/recommended"],
+    "extends": ["plugin:angular-template-whitespace/recommended"],
     "plugins": [
-        "angular-whitespace"
+        "angular-template-whitespace"
     ]
 }
 ```
@@ -39,7 +41,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "angular-whitespace/space-around-pipe": "error"
+        "angular-template-whitespace/space-around-pipe": "error"
     }
 }
 ```
