@@ -1,0 +1,6 @@
+{
+  "extends": "./configs/base.json",
+  "rules": {
+    "@angular-eslint/template/space-around-pipe": "error"
+  }
+}
