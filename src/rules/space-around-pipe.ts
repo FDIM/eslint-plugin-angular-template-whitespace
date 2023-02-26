@@ -8,7 +8,7 @@ export const RULE_NAME = 'space-around-pipe';
 // const INVALID_PATTERN = /\[(.*)\]/;
 
 const createRule = ESLintUtils.RuleCreator(
-  name => `https://github.com/FDIM/eslint-plugin-angular-whitespace/docs/rule/${ name }`,
+  name => `https://github.com/FDIM/eslint-plugin-angular-template-whitespace/docs/rule/${ name }`,
 );
 
 export default createRule<Options, MessageIds>({

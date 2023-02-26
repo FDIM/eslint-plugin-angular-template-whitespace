@@ -1,10 +1,10 @@
 {
-  "name": "eslint-plugin-angular-whitespace",
+  "name": "eslint-plugin-angular-template-whitespace",
   "version": "14.0.1",
   "description": "ESLint plugin to control whitespace in angular templates",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FDIM/eslint-plugin-angular-whitespace"
+    "url": "https://github.com/FDIM/eslint-plugin-angular-template-whitespace"
   },
   "keywords": [
     "eslint",

@@ -1,4 +1,4 @@
-# eslint-plugin-angular-whitespace
+# eslint-plugin-angular-template-whitespace
 
 This is controversial topic, but not everyone is onboard with prettier usage throughout codebase.
 
@@ -12,13 +12,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-angular-whitespace`:
+Next, install `eslint-plugin-angular-template-whitespace`:
 
 ```
-$ npm install eslint-plugin-angular-whitespace --save-dev
+$ npm install eslint-plugin-angular-template-whitespace --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-angular-whitespace` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-angular-template-whitespace` globally.
 
 ## Usage
 
